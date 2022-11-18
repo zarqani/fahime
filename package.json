@@ -4,9 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview",
+    "start": "vite preview --host",
     "master": "git pull && yarn install && yarn build && pm2 restart fahime-front",
-    "pm2": "NODE_ENV=production pm2 start --name='fahime-front' npm -- start -p 4173 --host"
+    "pm2": "NODE_ENV=production pm2 start --name='fahime-front' npm -- start -p 4173"
   },
   "dependencies": {
     "vue": "^3.2.41",
