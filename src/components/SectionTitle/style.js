@@ -1,7 +1,8 @@
-import styled from "vue-styled-components";
+import styled from "vue3-styled-components";
 
-const StyledTitle = styled.div`
+export const StyledTitle = styled.div`
   margin-bottom: 40px;
+  margin-top: 40px;
   padding-bottom: 20px;
   position: relative;
   z-index: 1;
@@ -50,7 +51,7 @@ const StyledTitle = styled.div`
     line-height: 22px;
     position: relative;
     z-index: 2;
-    max-width: 450px;
+
     :after {
       content: "";
       position: absolute;
@@ -62,5 +63,3 @@ const StyledTitle = styled.div`
     }
   }
 `;
-
-export default StyledTitle;

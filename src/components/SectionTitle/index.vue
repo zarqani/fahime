@@ -1,4 +1,6 @@
 <script setup>
+  import { StyledTitle } from "./style";
+
   defineProps({
     title: {
       type: String,
@@ -11,17 +13,9 @@
   });
 </script>
 
-<script>
-  import StyledTitle from "./style.js";
-
-  export default {
-    components: {
-      StyledTitle,
-    },
-  };
-</script>
-
 <template>
-  <h3>{{ title }}</h3>
-  <p>{{ subtitle }}</p>
+  <styled-title>
+    <h3>{{ title }}</h3>
+    <p>{{ subtitle }}</p>
+  </styled-title>
 </template>
