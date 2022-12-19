@@ -12,12 +12,21 @@
 
   const experience = [
     {
-      date: "2021 - Present",
+      date: "2022 - Present",
+      position: "Front End Developer",
+      compony: "Pio.",
+      href: "https://app.pio.ir/",
+      description:
+        "Pio can make cars smart with Piod device, My new experience is a PWA app with service worker and push notification by make all config and structure",
+      urls: ["https://pio.ir/", "https://app.pio.ir/"],
+    },
+    {
+      date: "2021 - 2022",
       position: "Front End Developer",
       compony: "Arta Capital.",
       href: "https://enigma.ir/",
       description:
-        "Enigma provides stock market analysis charts an analysis tools.",
+        "Enigma provides stock market analysis charts an analysis tools. My new experience was work with typescript, web socket, team working by solve big analysis problem in stock market. I tried to coding clean, expandable and implement best practice, bug free and stability structure.",
       urls: ["https://enigma.ir/", "https://panel.enigma.ir/"],
     },
     {
@@ -26,7 +35,7 @@
       compony: "Doctop.",
       href: "https://doctop.com/",
       description:
-        "Doctop is a free online service that helps patients find doctors.",
+        "Doctop is a free online service that helps patients find doctors. My new experience was work with next js, redux, agile scrum by implement appointment system and more. I tried for make it user friendly, bug free, and best practice. ",
       urls: ["https://doctop.com/"],
     },
     {
@@ -34,7 +43,8 @@
       position: "Front End Developer",
       compony: "Freelancer",
       href: "#",
-      description: "",
+      description:
+        "I worked on the individual project. I learned react js and graph ql.",
       urls: [
         "https://github.com/zarqani",
         "https://github.com/fahimezarghani/",

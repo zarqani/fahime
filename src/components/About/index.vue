@@ -4,8 +4,8 @@
   import { Information, AboutMe } from "./style";
 
   const title = `Hello! I’m Fahime Zarqani.`;
-  const description = `I'm an experienced javascript developer who constantly seeks out
-            innovative solutions to everyday problems. In my several years in
+  const description = `I'm an experienced Front End developer who seeks out
+            innovative solutions to problems. In my several years in
             this industry, I've honed my analytical thinking and collaboration
             skills, and I like working with a team.`;
 
