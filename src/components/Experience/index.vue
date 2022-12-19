@@ -18,7 +18,7 @@
       href: "https://app.pio.ir/",
       description:
         "Pio can make cars smart with Piod device, My new experience is a PWA app with service worker and push notification by make all config and structure",
-      urls: ["https://pio.ir/", "https://app.pio.ir/"],
+      urls: ["https://piocompany.org/", "https://app.pio.ir/"],
     },
     {
       date: "2021 - 2022",
@@ -35,7 +35,7 @@
       compony: "Doctop.",
       href: "https://doctop.com/",
       description:
-        "Doctop is a free online service that helps patients find doctors. My new experience was work with next js, redux, agile scrum by implement appointment system and more. I tried for make it user friendly, bug free, and best practice. ",
+        "Doctop is a free online service that helps patients find doctors. My new experience was work with Next js, redux, agile scrum by implement appointment system and more. I tried for make it user friendly, bug free, and best practice. ",
       urls: ["https://doctop.com/"],
     },
     {
@@ -44,7 +44,7 @@
       compony: "Freelancer",
       href: "#",
       description:
-        "I worked on the individual project. I learned react js and graph ql.",
+        "I worked on the individual project. I learned React js and GraphQl.",
       urls: [
         "https://github.com/zarqani",
         "https://github.com/fahimezarghani/",
