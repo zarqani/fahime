@@ -3,11 +3,10 @@
   import { SectionNumber, Container } from "../../components/CommonStyle/index";
   import { Information, AboutMe } from "./style";
 
-  const title = `Hello! I’m Fahime Zarqani.`;
-  const description = `I'm an experienced Front End developer who seeks out
-            innovative solutions to problems. In my several years in
-            this industry, I've honed my analytical thinking and collaboration
-            skills, and I like working with a team.`;
+  const title = `Fahime Zarqani.`;
+  const description = `A passionate Front-end developer with more than 3.5 years of experience in the industry.
+I've been working with Front-end technologies such as HTML5, CSS / SCSS, Accessibility, SEO, JavaScript (ES6+), React, Next.js, Redux, React Hooks, Typescript, GraphQL, React Testing Library, Jest, and more.
+I'm motivated by great people and a team that communicates effectively. I love to share knowledge, make connections, and learn from other developers. There is always something new to learn.`;
 
   const info = [
     { title: "01. ADDRESS: ", label: "Tehran-Iran" },

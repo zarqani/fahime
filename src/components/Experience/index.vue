@@ -16,8 +16,16 @@
       position: "Front End Developer",
       compony: "Pio.",
       href: "https://app.pio.ir/",
-      description:
-        "Pio can make cars smart with Piod device, My new experience is a PWA app with service worker and push notification by make all config and structure",
+      description: `
+      Pio is a startup company that provides car services.</br>
+      <ul style="list-style: disc;">
+        <li>Deliver engaging user experience through optimization of images, code, and cross-browser compatibility, increasing Time on Page by +180 seconds.</li>
+        <li>Expand features, refine code, and improve processes, producing smoother operations and enhancing user engagement.</li>
+        <li>Designed dynamic and browser-compatible pages using HTML5, CSS3, React, and Javascript.</li>
+      </ul>
+        <b>Skills</b>: JavaScript (ES6), React.js, Redux, Socket.IO, MUI,  Axios, REST APIs, HTML, CSS, Git, PWA, Service Worker, Workbox, Push Notifications, Styled-System, Styled-Components.
+
+      `,
       urls: ["https://piocompany.org/", "https://app.pio.ir/"],
     },
     {
@@ -25,8 +33,15 @@
       position: "Front End Developer",
       compony: "Arta Capital.",
       href: "https://enigma.ir/",
-      description:
-        "Enigma provides stock market analysis charts an analysis tools. My new experience was work with typescript, web socket, team working by solve big analysis problem in stock market. I tried to coding clean, expandable and implement best practice, bug free and stability structure.",
+      description: `
+      Enigma is the largest provider of analytical products in the Iranian stock market.
+      <ul style="list-style: disc;">
+        <li>Collaborated with designers to improve UIs and updated the websites to be more user-friendly.</li>
+        <li>Ensure Cross-browser and device compatibility.</li>
+        <li>Expand features, refine code, and improve processes, producing smoother operations and enhancing user engagement.</li>
+      </ul>
+        <b>Skills</b>: JavaScript (ES6), TypeScript, Next.js, Redux, WebSocket, Ant Design, Axios, Jest, REST APIs, HTML, CSS, Git, Styled-System, Styled-Components.
+      `,
       urls: ["https://enigma.ir/", "https://panel.enigma.ir/"],
     },
     {
@@ -34,8 +49,14 @@
       position: "Front End Developer",
       compony: "Doctop.",
       href: "https://doctop.com/",
-      description:
-        "Doctop is a free online service that helps patients find doctors. My new experience was work with Next js, redux, agile scrum by implement appointment system and more. I tried for make it user friendly, bug free, and best practice. ",
+      description: `
+        Doctop is a software management system for all physicians and clinics to serve various services. including online appointment booking, Electronic visits, and so on.
+        <ul style="list-style: disc;">
+          <li>Delivered responsive, cross-browser compatible, and accessibility-compliant websites.</li>
+          <li>Improves World Wildlife Fund website by utilizing web development best practices that include accessibility, search engine optimization (SEO), and website performance.</li>
+        </ul>
+        <b>Skills</b>: JavaScript (ES6), Next.js,  Ant Design, Node.js, GraphQL, Axios, REST APIs, Cypress, HTML, CSS, Git.
+     `,
       urls: ["https://doctop.com/"],
     },
     {
@@ -52,7 +73,7 @@
     },
     {
       date: "2013 - 2017",
-      position: "Wordpress Developer",
+      position: "WordPress Developer",
       compony: "Zariss.",
       href: "#",
       description: "",
@@ -110,7 +131,9 @@
             <a target="_blank" :href="item.href">{{ item.compony }}</a>
           </Company>
           <div>
-            <p v-if="item.description">{{ item.description }}</p>
+            <p v-if="item.description">
+              <span v-html="item.description"></span>
+            </p>
             <websites-url :rowLength="item.urls.length">
               <li v-for="url in item.urls">
                 <a target="_blank" :href="url">{{ url }}</a>
